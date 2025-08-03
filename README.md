@@ -23,11 +23,6 @@ If you'd like to connect or collaborate, feel free to reach out through the cont
 
 ---
 
-### 📷 Preview
-
-![Portfolio Screenshot](./screenshot.png) <!-- Add a real screenshot image in your repo -->
-
----
 
 ## 📦 Setup
 
