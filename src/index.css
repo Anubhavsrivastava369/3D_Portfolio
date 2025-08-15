@@ -3,6 +3,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+  --vh: 1vh;
+}
+
+/* Fallback for browsers that don't support custom properties */
+.mobile-height {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+/* Use new viewport units if supported */
+@supports (height: 100dvh) {
+  .mobile-height {
+    height: 100dvh;
+  }
+}
+
 
 * {
   margin: 0;
